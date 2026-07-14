@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.vscode/
+salidas/
+config/database_config.local.py
