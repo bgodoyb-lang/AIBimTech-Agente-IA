@@ -3,28 +3,6 @@
 Esta versión mantiene la interfaz y el patrón MVC, pero reemplaza el
 almacenamiento SQLite por la base de datos MySQL diseñada para el proyecto.
 
-## Estructura principal
-
-```text
-AIBimTech_MVC_MySQL/
-├── app.py
-├── config/
-│   └── database_config.py
-├── controllers/
-│   └── inventory_controller.py
-├── models/
-│   └── archivo.py
-├── repositories/
-│   └── mysql_repository.py
-├── services/
-│   └── inventory_scanner.py
-├── views/
-│   └── inventory_view.py
-├── sql/
-│   └── aibimtech_sprint1.sql
-└── requirements.txt
-```
-
 ## 1. Instalar el conector
 
 En la terminal de VS Code:
