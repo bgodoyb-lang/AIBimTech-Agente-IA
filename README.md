@@ -37,11 +37,11 @@ python -m pip install -r requirements.txt
 
 1. Abre MySQL Workbench.
 2. Abre `sql/aibimtech_sprint1.sql`.
-3. Ejecuta todo el script con el botón del rayo.
+3. Ejecuta el script
 4. Actualiza el panel **Schemas**.
-5. Debe aparecer la base `aibimtech` con diez tablas.
+5. Debe aparecer la base `aibimtech` con las diez tablas.
 
-## 3. Configurar la contraseña
+## 3. Configura la contraseña
 
 Abre:
 
@@ -83,11 +83,3 @@ SELECT * FROM puntos_control ORDER BY id_punto_control DESC;
 ```
 
 La aplicación debe mostrar el ID del inventario creado.
-
-## Evidencia recomendada
-
-Captura una imagen donde aparezcan:
-
-- La interfaz con el mensaje de conexión correcta.
-- El inventario terminado.
-- MySQL Workbench mostrando los registros de la tabla `archivos`.
